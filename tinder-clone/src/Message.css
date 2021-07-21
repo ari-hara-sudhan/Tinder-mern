@@ -1,0 +1,12 @@
+.message{
+    padding:10px;
+    background-color: green;
+    width:fit-content;
+    border-radius: 20px;
+    margin:10px;
+    color:white;
+}
+.message__user{
+    background-color: blue;
+    margin-left:auto;
+}

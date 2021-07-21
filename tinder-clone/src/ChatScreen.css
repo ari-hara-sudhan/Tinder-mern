@@ -1,0 +1,8 @@
+.chatscreen__form{
+    position:fixed;
+    bottom:10px;
+    width:100%;
+}
+.chatscreen__input{
+  width:80% !important;
+}

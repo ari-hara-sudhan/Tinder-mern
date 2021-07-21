@@ -1,0 +1,24 @@
+.swipebutton{
+    position:fixed;
+    bottom:10px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.swipebutton .MuiIconButton-root{
+    background-color: white;  
+    border:3px solid lightgray;
+    box-shadow: 12px 19px 4px -2px rgba(0,0,0,0.3) !important;
+}
+.cancel{
+    color:rgb(241, 114, 114) !important;
+}
+.flash{
+    color:blue !important;
+}
+.heart{
+    color:palevioletred !important;
+}
+.star{
+    color:yellow !important;
+}

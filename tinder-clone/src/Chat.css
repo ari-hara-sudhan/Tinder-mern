@@ -1,0 +1,22 @@
+.chat{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom:1px solid lightgray;
+    margin:10px;
+    cursor:pointer;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+}
+.chat__info{
+    flex:1;
+    margin-left:10px;
+}
+.chat__info>h4{
+    color:gray;
+}
+.small{
+    color:gray;
+}
