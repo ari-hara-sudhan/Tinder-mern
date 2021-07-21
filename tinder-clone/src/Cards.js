@@ -5,6 +5,7 @@ import axios from "./axios"
 
 function Cards() {
 const [persons,setPersons]=useState([])
+
 const onSwipe = (direction) => {
     console.log('You swiped: ' + direction)
   }
@@ -12,6 +13,8 @@ const onSwipe = (direction) => {
   const onCardLeftScreen = (myIdentifier) => {
     console.log(myIdentifier + ' left the screen')
   }
+
+ 
 
   useEffect(() => {
 
@@ -31,17 +34,20 @@ const onSwipe = (direction) => {
            <div className="cards__container">
            {
                     persons.map(person =>(
-                    
+                  
                         <TinderCard className="swipe" key={person._id} onSwipe={onSwipe} onCardLeftScreen={() => onCardLeftScreen('fooBar')} preventSwipe={['right', 'left']}>
+                           
                             <div
                             style={{backgroundImage:`url(${person.imageUrl})`}}
                              className="card">
                             <h3>{person.name}</h3>
+                        
                             </div>
 
                         </TinderCard>
                       
                     ))
+                   
                 }
            </div>
               
